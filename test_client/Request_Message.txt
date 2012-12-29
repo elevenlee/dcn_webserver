@@ -1,0 +1,74 @@
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+If-Modified-Since: Mon, 31 Oct 2011 23:48:12 GMT
+
+    
+   		
+ 		
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+
+   			
+		GET /TestServer HTTP/1.1
+	 Host:localhost:5678
+
+GET / 	TestServer HTTP/1.1
+Host: localhost:5678
+
+GET  /TestServer HTTP/1.1
+Host: localhost:5678
+
+HAHA /TestServer HTTP/1.1
+Host: localhost:5678
+
+GET /Test%20Ser%20ver HTTP/1.1
+Host: localhost:5678
+
+GET /TestServer HTTP/1.1.2
+Host: localhost:5678
+
+GET /TestServer HTTP/0.8
+Host: localhost:5678
+
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+Bad-Header-Lines
+
+GET /TestServer HTTP/1.1
+
+GET /TestServer HTTP/1.1
+Host: itsawronghost:5678
+
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+If-Modified-Since: Mon, 31 Oct 2011 GMT 23:48:12
+
+GET /noexistfile HTTP/1.1
+Host: localhost:5678
+
+GET / HTTP/1.1
+Host: localhost:5678
+
+HEAD / HTTP/1.1
+Host: localhost:5678
+
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+If-Modified-Since: Mon, 31 Oct 2011 23:48:12 GMT
+
+HEAD /TestServer HTTP/1.1
+Host: localhost:5678
+If-Modified-Since: Mon, 31 Oct 2011 23:48:12 GMT
+
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+If-Modified-Since: Tue, 01 Nov 2011 02:16:46 GMT
+
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+If-Modified-Since: Tuesday, 01-Nov-11 02:16:46 GMT
+
+GET /TestServer HTTP/1.1
+Host: localhost:5678
+If-Modified-Since: Tue Nov  1 02:16:46 2011
+
